@@ -1,0 +1,137 @@
+table{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly
+}
+table,
+tr,
+th {
+    border: 2px black solid;
+    border-collapse: collapse;
+    padding: 7px;  
+}
+
+body{
+
+    background: -webkit-linear-gradient(rgb(243, 244, 246),rgba(252, 229, 49, 0.966));   
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    
+}
+
+.dropdown-container{
+
+    position:sticky;
+    
+}
+.dropdown-container ul{
+    position:relative;
+    max-height: 0px;
+    overflow-x: hidden;
+    overflow-y:visible;
+    transition:all 0,3s ;
+    background: -webkit-linear-gradient(rgb(243, 244, 246),rgba(93, 224, 119, 0.966));
+    background-image:url('meme.gif');
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.dropdown-container:hover ul{
+    
+    max-height: 200px;
+}
+
+.pj1{
+    text-align: center;
+    display:flex;
+    justify-content:baseline;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    
+}
+.pj2{
+    text-align: center;
+    display:flex;
+    justify-content:baseline;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+
+}
+.pj3{
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.pj4{
+    text-align: center;
+    display:flexbox;
+    justify-content:center;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.pj5{
+    text-align: center;
+    display:flexbox;
+    justify-content:center;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.resumo{
+    background-position: center;
+    font-family:initial;
+    margin: 3px;
+}
+.argu{
+    font-family:"BAD GRUNGE";
+    src:url('letra.ttf') ;
+    font-size: 35px;    
+    
+}
+header{
+   text-align: center;
+}
+
+article{
+    font-size: small;
+}
+p{
+    font-size: small;
+   margin: 5%;
+
+}
+
+h3{
+    text-align: center; 
+}
+.XD{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+.letra{
+
+    font-family:"BAD GRUNGE";
+    src:url('letra.ttf') ;
+    font-size: 30px;
+}
+.pog{
+    text-align:center;
+}
+
+.info{
+    text-align:center;
+}
